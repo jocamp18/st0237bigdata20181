@@ -11,11 +11,11 @@ IP Hortonworks: 192.168.10.80
 
 User/pass del DCA
 
-Hue: http://192.168.10.115:8888
-Ambari: http://192.168.10.80:8080
+* Hue: http://192.168.10.115:8888
+* Ambari: http://192.168.10.80:8080
 
-Monitoreo del cluster Horton: http://192.168.10.80:8088
-Monitoreo del cluster cloudera: http://192.168.10.115:8088
+* Monitoreo del cluster Horton: http://192.168.10.80:8088
+* Monitoreo del cluster cloudera: http://192.168.10.115:8088
 
 ## 2. Gestión de archivos en HDFS
 
