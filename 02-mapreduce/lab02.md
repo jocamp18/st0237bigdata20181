@@ -8,7 +8,7 @@
 
 [datasets de ejemplo](../datasets)
 
-* La estructura del archivo es: (SE: sector económico)
+* La estructura del archivo es: (SE: sector económico) (archivo: empleados.csv)
 
       SE,Id_empleado,salario,año
 
@@ -26,7 +26,7 @@
 2. El salario promedio por Empleado
 3. Número de SE por Empleado que ha tenido a lo largo de la estadística
 
-## 2. Se tiene un conjunto de acciones de la bolsa, en la cual se reporta a diario el valor promedio por acción, la estructura de los datos es:
+## 2. Se tiene un conjunto de acciones de la bolsa, en la cual se reporta a diario el valor promedio por acción, la estructura de los datos es (archivo: bolsa.csv):
 
     empresa,valor,fecha
 
@@ -42,7 +42,7 @@
 2. Listado de acciones que siempre han subido o se mantienen estables.
 3. DIA NEGRO: Saque el día en el que la mayor cantidad de acciones tienen el menor valor de acción (DESPLOME), suponga una inflación independiente del tiempo.
 
-## 3. Sistema de evaluación de películas:
+## 3. Sistema de evaluación de películas (archivo: peliculas.csv):
 
 Se tiene un conjunto de datos en el cual se evalúan las películas con un rating, con la siguiente estructura:
 

@@ -7,7 +7,8 @@
 #
 # Tambien cambian los nombres especificos de las librerias, revise en cada caso y haga los ajustes
 #
-HADOOP_COMMON_JAR=$HADOOP_HOME/client/hadoop-mapreduce-client-core.jar:$HADOOP_HOME/client/hadoop-common.jar
+export HADOOP_HOME=/usr/hdp/current/hadoop-client
+export HADOOP_COMMON_JAR=$HADOOP_HOME/client/hadoop-mapreduce-client-core.jar:$HADOOP_HOME/client/hadoop-common.jar
 
 mkdir wordcount_classes
 
