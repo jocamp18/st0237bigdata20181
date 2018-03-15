@@ -4,7 +4,7 @@ from mrjob.step import MRStep
 class MRMovies5(MRJob):
 	
 	def mapper(self, _, line):
-		user, movie, genre, rating, date = line.split(',')
+		user, movie, rating, genre, date = line.split(',')
 		yield date, int(rating)
 
 	def reducer1(self, date, rating):

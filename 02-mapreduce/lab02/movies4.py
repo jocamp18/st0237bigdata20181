@@ -3,7 +3,7 @@ from mrjob.job import MRJob
 class MRMovies4(MRJob):
 
 	def mapper(self, _, line):
-		user, movie, genre, rating, date = line.split(',')
+		user, movie, rating, genre, date = line.split(',')
 		yield movie, int(rating)
 
 	def reducer(self, movie, rating):
